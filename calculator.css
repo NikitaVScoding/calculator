@@ -1,0 +1,21 @@
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+#result-field {
+    display: block;
+    text-align: right;
+    width: 15em;
+    height: auto;
+    border-style: inset;
+    border-color: #000000;
+}
+
+#btnInput {
+    display: block;
+    text-align: right;
+    width: 15em;
+    height: auto;
+    border-style: inset;
+    border-color: #000000;
+}

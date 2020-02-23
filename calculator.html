@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head lang = "en">
+        <meta charset = "utf-8">
+        <meta name = "keywords" content = "JavaScript, Calculator">
+        <meta name = "description" content = "Simple calculator made with help of JavaScript">
+        <meta name = "author" content = "NikitaVScoding">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Simple Calculator</title>
+        <a target = "_blank"></a>
+        <!--<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>-->
+        <link rel = "stylesheet"
+              type = "text/css"
+              href = "calculator.css" >
+    </head>
+    <body>
+        <div id = "main-body">
+            <p id = "result-field">Your result will be displayed here</p>
+            <p id = "btnInput">0</p>
+            <div id = "input-field">
+                <form id = "fast-calc">
+                    <input id = "stringOfChars" type = "text" />
+                    <button id = "calc" onclick = "calculateString()">Calculate</button>
+                </form>
+            </div>
+            <div id = "btns">
+                <a id = "zero" href = "#" >0</a>
+                <a id = "one" href = "#">1</a>
+                <a id = "two" href = "#">2</a>
+                <a id = "three" href = "#">3</a>
+                <a id = "four" href = "#">4</a>
+                <a id = "five" href = "#">5</a>
+                <a id = "six" href = "#">6</a>
+                <a id = "seven" href = "#">7</a>
+                <a id = "eight" href = "#">8</a>
+                <a id = "nine" href = "#">9</a>
+                <a id = "plus" href = "#">+</a>
+                <a id = "minus" href = "#">-</a>
+                <a id = "multiply" href = "#">*</a>
+                <a id = "divide" href = "#">/</a>
+                <a id = "sqrt" href = "#">&radic;</a>
+                <a id = "clear" href = "#">C</a>
+                <a id = "deleteSymb" href = "#">&larr;</a>
+                <a id = "powerOf" href = "#">&and;</a>
+                <a id = "openBrace" href = "#">(</a>
+                <a id = "closeBrace" href = "#">)</a>
+                <a id = "equals" href = "#">=</a>
+                <a id = "dot" href = "#">.</a>
+            </div>
+            <div id = "history">
+                <p>History of calculations</p>
+                <table id = "inputHistory">
+                    <th>
+                        <td>Operation:</td>
+                    </th>
+                </table>
+            </div>
+        </div>
+        <script src = "calculator.js"></script>
+    </body>
+</html>
